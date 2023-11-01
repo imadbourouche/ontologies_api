@@ -53,7 +53,7 @@ GIT
 
 GIT
   remote: https://github.com/ontoportal-lirmm/ontologies_linked_data.git
-  revision: 000d67f6dccf1e76b9379bc6ebb51c32efee539d
+  revision: 5eb0ba9f6add430646ba36c05116182fcb2c9b2c
   branch: feature/add-persons-and-organization-models
   specs:
     ontologies_linked_data (0.0.1)
@@ -108,6 +108,7 @@ GEM
     airbrussh (1.5.0)
       sshkit (>= 1.6.1, != 1.7.0)
     backports (3.24.1)
+    base64 (0.1.1)
     bcrypt (3.1.19)
     bcrypt_pbkdf (1.1.0)
     bigdecimal (1.4.2)
@@ -216,7 +217,7 @@ GEM
     multi_json (1.15.0)
     multipart-post (2.3.0)
     net-http-persistent (2.9.4)
-    net-imap (0.4.2)
+    net-imap (0.4.3)
       date
       net-protocol
     net-pop (0.1.2)
@@ -229,7 +230,8 @@ GEM
       net-protocol
     net-ssh (7.2.0)
     netrc (0.11.0)
-    newrelic_rpm (9.5.0)
+    newrelic_rpm (9.6.0)
+      base64
     oj (2.18.5)
     omni_logger (0.1.4)
       logger

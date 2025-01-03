@@ -10,6 +10,9 @@ Group = LinkedData::Models::Group
 
 Ontology = LinkedData::Models::Ontology
 
+SemanticArtefact = LinkedData::Models::SemanticArtefact
+SemanticArtefactDistribution = LinkedData::Models::SemanticArtefactDistribution
+
 OntologySubmission = LinkedData::Models::OntologySubmission
 
 SubmissionStatus = LinkedData::Models::SubmissionStatus
